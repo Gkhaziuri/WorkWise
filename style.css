@@ -1,0 +1,187 @@
+/* global styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.full-header {
+    margin: 0 auto;
+    width: 1920px;
+    height: 126px;
+}
+.icon {
+    display:inline-block;
+    width: 44px;
+    height: 44px;
+    margin-top: 40px;
+    margin-left: 140px;
+}
+header h1 {
+    display: inline-block;
+    font-size: 40px;
+    line-height: 48.41px;
+    font-family: 'Inter', sans-serif;
+}
+.navigation {
+    display: inline-block;
+    margin-left: 1670px;
+}
+.navigation li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 10px;
+}
+.navigation img {
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+}
+.container {
+    /* position: relative; */
+    margin: 0 auto;
+    width: 1587px;
+    margin-top: 49px;
+}
+.info-section {
+    
+}
+.input {
+    position: absolute;
+    top: 175px;
+    height: 87px;
+    width: 1587px;
+    border-radius: 62px;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.search-img {
+    width: 24px;
+    height: 24px;
+    margin-top: 31px;
+    margin-left: 50px;
+}
+.input-p {
+    position: absolute;
+    font-size: 32px;
+    margin-top: -36px;
+    margin-left: 90px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.sliders-img {
+    margin-left: 950px
+}
+.input-talent {
+    font-size: 32px;
+    margin-top: -61px;
+    margin-left: 1100px;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Fira Sans', sans-serif;
+}
+.input-talent::before {
+    display: inline-block;
+    vertical-align: middle;
+    content: "";
+    width: 2px;
+    height: 87px;
+    background-color: #000000;
+    margin-right: 25px;
+}
+.angle-img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -55px;
+    margin-left: -250px
+}
+.input-talent::after {
+    display: inline-block;
+    vertical-align: middle;
+    content: "";
+    width: 2px;
+    height: 87px;
+    background-color: #000000;
+    margin-left: 270px;
+}
+.search2-img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 250px;
+    margin-top: -55px;
+}
+.developers {
+    margin-top: 250px;
+}
+.persons {
+    display: inline-block;
+    border: 1px solid #000000;
+    border-radius: 30px;
+    padding: 10px;
+    border: 1px solid black;
+    width: 370px;
+    padding-bottom: 50px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+
+}
+.developer-img {
+    padding-left: 6px;
+    position: relative;
+}
+.heart-img {
+    position: absolute;
+    left: 560px;
+    top: 400px;
+}
+.lorem {
+    padding-left: 35px;
+    font-weight: 700;
+    vertical-align: top;
+    font-family: 'Inter', sans-serif;
+
+}
+.direction {
+    display: inline-block;
+    padding-left: 35px;
+    font-size: 14px;
+    margin-top: 5px;
+    font-family: 'Inter', sans-serif;
+}
+.income {
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: -40px;
+    vertical-align: middle;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+}
+.income span {
+    font-weight: 700;
+}
+.star-img {
+    margin-left: 250px;
+    margin-top: -35px;
+    vertical-align: middle;
+    display: inline-block;
+
+}
+.evaluation {
+    vertical-align: middle;
+    margin-top: -35px;
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+}
+.send-button {
+    margin-left: 65px;
+    background: #087DBF;
+    color: white;
+    border-radius: 25px;
+    text-align: center;
+    width: 225px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+}
+.send-arrow {
+    margin-right: 10px;
+}
